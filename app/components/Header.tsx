@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { SiFacebook, SiInstagram, SiLinkedinIn, SiX, SiYoutube } from "react-icons/si";
+import { SiFacebook, SiInstagram, SiLinkedin, SiX, SiYoutube } from "react-icons/si";
 import MobileMenu from "./MobileMenu";
 import { getLocalization } from "../utils/getLocalization";
 
@@ -8,7 +8,7 @@ const iconMap = {
   SiFacebook: SiFacebook,
   SiX: SiX,
   SiInstagram: SiInstagram,
-  SiLinkedin: SiLinkedinIn,
+  SiLinkedin,
   SiYoutube: SiYoutube,
 };
 
