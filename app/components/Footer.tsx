@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { SiFacebook, SiInstagram, SiLinkedin, SiX, SiYoutube } from "react-icons/si";
+import { SiFacebook, SiInstagram, SiX, SiYoutube } from "react-icons/si";
+import { FaLinkedinIn } from "react-icons/fa";
 import ScrollToTopButton from "./ScrollToTopButton"; // Keep this as a client component
 import { getLocalization } from "../utils/getLocalization";
 
@@ -16,7 +17,7 @@ const iconMap: Record<SocialIcon, React.ElementType> = {
   SiFacebook: SiFacebook,
   SiX: SiX,
   SiInstagram: SiInstagram,
-  SiLinkedin,
+  SiLinkedin: FaLinkedinIn,
   SiYoutube: SiYoutube
 };
 
